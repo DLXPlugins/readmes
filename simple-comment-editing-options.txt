@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.0.0
-Stable tag: 2.0.5
+Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,12 @@ Simple Comment Editing Options features:
 
 
 == Changelog ==
+
+= 2.0.6 =
+* Released 2022-06-11
+* I sincerely apologize for the confusion. Existing users can <a href="https://dlxplugins.com/support/simple-comment-editing-options-license/">request a free license</a> via my support form so we can move everyone to the renamed plugin.
+* Removing uninstall script so users can update to Comment Edit Pro without losing options.
+* Again, I'm really sorry. If you have a license, please <a href="https://dlxplugins.com/support/simple-comment-editing-options-license/">fill out the form here please</a>.
 
 = 2.0.5 =
 * Released 2022-06-09
@@ -119,8 +125,5 @@ Simple Comment Editing Options features:
 
 == Upgrade Notice ==
 
-= 2.0.5 =
-Rebranded to Comment Edit Pro. Please email me at ronald@dlxplugins.com and I'll create a free license for you.
-
-= 2.0.4 =
-Fixing bug with Comment Character Control saving.
+= 2.0.6 =
+Simple Comment Editing Options has been moved to a new site and renamed Comment Edit Pro. License holders will get a free license. Ownership has not changed. Please update this plugin before installing Comment Edit Pro.
