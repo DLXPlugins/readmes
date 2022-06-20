@@ -1,0 +1,33 @@
+=== QuotesDLX ===
+Tags: block, quote, blockquote
+Requires at least: 6.0.0
+Tested up to: 6.0.0
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Create Beautiful and Shareable Quotes in the Block Editor
+
+== Description ==
+
+The plugin is an easy-to-use blockquote block with support for themes, social networks, and user interaction.
+
+More information about QuotesDLX: https://dlxplugins.com/plugins/quotesdlx/
+Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
+
+== Installation ==
+
+1. Just unzip and upload the "quotes-dlx" folder to your '/wp-content/plugins/' directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+
+== Changelog ==
+
+= 1.0.0 =
+* Released 2022-06-22
+* MVP for QuotesDLX: https://qdlx.dlxplugins.com/
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release.
