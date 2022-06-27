@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.0.0
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,11 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Changelog ==
 
+= 1.1.2 =
+* Released 2022-06-27
+* Fixing Twitter username not saving.
+* Fixing a few typos.
+
 = 1.1.0 =
 * Released 2022-06-24
 * Fixing theme JS error with wrong theme variable being used.
@@ -34,8 +39,5 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-Fixing theme error in default themes view in the admin.
-
-= 1.0.0 =
-Initial release.
+= 1.1.2 =
+Fixing Twitter username not saving. Fixing a few typos.
