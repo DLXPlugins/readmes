@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.0.0
-Stable tag: 1.1.2
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,42 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Changelog ==
 
+= 2.0.0 =
+* Released 2022-08-29
+* New Theme: Bubble Gum.
+* Feature: Theme Options.
+* Change a theme's colors.
+* Change a theme's font size, line-height, and button sizes.
+* Change a theme's font families.
+* Feature: Advanced Options
+* Disable all fonts.
+* Choose font families for all the themes.
+* Enable and choose Adobe Fonts as a font family.
+* Added the ability to reset options.
+* Feature: Finalized the theme framework and released a sample theme that others can use as a template.
+* Feature: Preview almost anything theme-related in the admin.
+* Feature: New Beta option so you can opt-in to betas on the Licenses screen.
+* Feature: New lightbox script for more eye-pleasing modals.
+* Feature: Theme previews are now actual interactive previews.
+* Feature: Fonts and theme CSS files are now optimized to load only when needed.
+* Feature: Added several local Google Fonts that users can select from.
+* Feature: Updated all themes to use the new theme framework.
+* Bug fix: Remove scroll to on the home tab on initial load.
+* Bug fix: Fixed block.json error where a default theme has the wrong slug.
+* Bug fix: Unsaved changes in the admin are now much more reliable.
+* Bug fix: Sidebar options lost focus and are difficult to modify.
+* Misc: Updating theme previews on the Themes screen.
+* Misc: Cleaning up the appearance of the admin.
+* Misc: Removing YouTube embed on the Home Screen for privacy (it now pops up in a modal instead).
+* Misc: Removing the Highlight and Share advertisement
+* Developers: Finalized theme framework
+* Can add custom colors
+* Specify a stylesheet
+* Set a preview image
+* Set credits
+* Developers: Setting Error Boundaries so the whole admin doesn't crash if something goes wrong.
+* Developers: Fixing sporadic fatals when an invalid static variable is initialized incorrectly.
+
 = 1.1.2 =
 * Released 2022-06-27
 * Fixing Twitter username not saving.
@@ -38,6 +74,9 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 * MVP for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Upgrade Notice ==
+
+= 2.0.0 =
+Theme colors, custom font selection, and advanced options.
 
 = 1.1.2 =
 Fixing Twitter username not saving. Fixing a few typos.
