@@ -1,8 +1,8 @@
 === QuotesDLX ===
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
-Tested up to: 6.0.0
-Stable tag: 2.0.0
+Tested up to: 6.0.2
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,7 @@ The plugin is an easy-to-use blockquote block with support for themes, social ne
 
 More information about QuotesDLX: https://dlxplugins.com/plugins/quotesdlx/
 Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
+Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelog
 
 == Installation ==
 
@@ -22,6 +23,12 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 
 
 == Changelog ==
+
+= 2.0.1 =
+* Released 2022-08-30
+* Bug fix: styles were not applying when the block is inserted in a container/parent block.
+* Bug fix: aligncenter styles were taking precedence over the theme styles.
+* Bug fix: the default theme was not having styles applied.
 
 = 2.0.0 =
 * Released 2022-08-29
@@ -74,6 +81,9 @@ Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
 * MVP for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+Fixing styles not loading for inner blocks. CSS adjustments to the themes.
 
 = 2.0.0 =
 Theme colors, custom font selection, and advanced options.
