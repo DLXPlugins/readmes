@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.0.2
-Stable tag: 2.0.1
+Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,13 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 2.0.6 =
+* Released 2022-09-12
+* Bug fix: Disabling the Twitter button would invalidate HTML.
+* Bug fix: Fixing contextual menu where menu items on certain themes would have too much margin.
+* Bug fix: Fixing units on Rangecontrol when selecting line-height for desktop|tablet|mobile.
+* Bug fix: Fixing line-height on a few themes.
 
 = 2.0.1 =
 * Released 2022-08-30
@@ -81,6 +88,9 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 * MVP for QuotesDLX: https://qdlx.dlxplugins.com/
 
 == Upgrade Notice ==
+
+= 2.0.6 =
+Fixing issue with invalid HTML when disabling Twitter button. Some style tweaks.
 
 = 2.0.1 =
 Fixing styles not loading for inner blocks. CSS adjustments to the themes.
