@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.0.2
-Stable tag: 2.0.6
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,13 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 2.1.0 =
+* Released 2022-10-03
+* Added Facebook integration to context menu and buttons.
+* Added field in Advanced for a Facebook App ID.
+* Added in experimental email option.
+* Added in experimental reCAPTCHA 3 option.
 
 = 2.0.6 =
 * Released 2022-09-12
@@ -89,14 +96,6 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 == Upgrade Notice ==
 
-= 2.0.6 =
-Fixing issue with invalid HTML when disabling Twitter button. Some style tweaks.
+= 2.1.0 =
+Added Facebook integration to context menu and buttons. Added field in Advanced for a Facebook App ID. Added in experimental email option. Added in experimental reCAPTCHA 3 option.
 
-= 2.0.1 =
-Fixing styles not loading for inner blocks. CSS adjustments to the themes.
-
-= 2.0.0 =
-Theme colors, custom font selection, and advanced options.
-
-= 1.1.2 =
-Fixing Twitter username not saving. Fixing a few typos.
