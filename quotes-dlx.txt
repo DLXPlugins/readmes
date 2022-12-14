@@ -1,8 +1,8 @@
 === QuotesDLX ===
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
-Tested up to: 6.0.2
-Stable tag: 2.1.0
+Tested up to: 6.1.0
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,15 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 2.2.0 =
+* Released 2022-12-13
+* Added import/export for individual theme options.
+* Added new theme: Cotton Candy
+* Fix: Buttons and icons were not aligned correctly.
+* Fix: Themes needed adjustments for when buttons are not showing.
+
+Please <a href="https://docs.dlxplugins.com/developers/changelog">see the Changelog</a> for what's been added.
 
 = 2.1.0 =
 * Released 2022-10-03
@@ -96,6 +105,6 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 == Upgrade Notice ==
 
-= 2.1.0 =
-Added Facebook integration to context menu and buttons. Added field in Advanced for a Facebook App ID. Added in experimental email option. Added in experimental reCAPTCHA 3 option.
+= 2.2.0 =
+You can now import/export theme options so you can configure once and transfer across sites. New theme: Cotton Candy. Various theme fixes.
 
