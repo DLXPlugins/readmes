@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.1.0
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,11 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 2.2.1 =
+* Released 2023-01-03
+* Fixing button style in the Cotton Candy theme.
+* Allowing the license screen to be turned off in certain conditions.
 
 = 2.2.0 =
 * Released 2022-12-13
@@ -105,6 +110,5 @@ Please <a href="https://docs.dlxplugins.com/developers/changelog">see the Change
 
 == Upgrade Notice ==
 
-= 2.2.0 =
-You can now import/export theme options so you can configure once and transfer across sites. New theme: Cotton Candy. Various theme fixes.
-
+= 2.2.1 =
+Fixing button style in the Cotton Candy theme. Allowing the license screen to be turned off in certain conditions.
