@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.0.0
-Stable tag: 2.2.0
+Tested up to: 6.1.0
+Stable tag: 2.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,13 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 2.3.0 =
+* Released 2023-02-01
+* Add @ Mentions feature so users can @ mention others in comments.
+* Add Gravatar Primary Protection so users can hide their avatars if needed.
+* Comment Avatars is now out of beta.
+* Adding docs links to appropriate sections.
 
 = 2.2.0 =
 * Released 2022-08-10
@@ -135,11 +142,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 2.2.0 =
-Added three new integrations: Akismet, Mailchimp, and reCAPTCHA 3 support.
-
-= 2.1.0 =
-Adding Comment Avatars (beta) to allow you to have some fun avatars to choose from.
-
-= 2.0.6 =
-Comment Edit Pro has been moved to a new site and renamed Comment Edit Pro. License holders will get a free license. Ownership has not changed. Please update this plugin before installing Comment Edit Pro.
+= 2.3.0 =
+Added @ mentions and Gravatar Privacy features. Comment Avatars is out of beta.
