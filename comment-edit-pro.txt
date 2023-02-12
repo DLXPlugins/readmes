@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.1.0
-Stable tag: 2.3.1
+Stable tag: 2.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,13 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 2.3.5 =
+* Released 2023-02-11
+* Added Slack integration. Receive notifications on new and/or edited comments.
+* Fixed a bug with frontend editing. Removed Bootstrap dependency.
+* Updated License screen with more information about your license.
+* <a href="https://dlxplugins.com/announcements/comment-edit-pro-2-3-5-released-with-slack-integration/">Please read the announcement post</a> for more details.
 
 = 2.3.1 =
 * Released 2023-02-01
@@ -142,5 +149,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 2.3.1 =
-Added @ mentions and Gravatar Privacy features. Comment Avatars is out of beta.
+= 2.3.5 =
+Added Slack integration. Receive notifications on new and/or edited comments. Improved licensing screen and front-end editing fixes.
