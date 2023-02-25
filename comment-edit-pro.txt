@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.1.0
-Stable tag: 2.3.5
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,15 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.0.0 =
+* Released 2023-02-24
+* Added Cloudflare Turnstile.
+* Added Webhooks feature.
+* Restructured admin settings.
+* Added Gravatar fallback to Avatar settings.
+* Fixed beta testing bug, which would not allow users to opt-in to beta testing.
+* Added compatibility with Easy Fancybox plugin.
 
 = 2.3.5 =
 * Released 2023-02-11
@@ -149,5 +158,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 2.3.5 =
-Added Slack integration. Receive notifications on new and/or edited comments. Improved licensing screen and front-end editing fixes.
+= 3.0.0 =
+Added Cloudflare Turnstile and Webhooks. Admin panel overhaul. Numerous bug fixes.
