@@ -42,6 +42,7 @@ Comment Edit Pro features:
 * Added Gravatar fallback to Avatar settings.
 * Fixed beta testing bug, which would not allow users to opt-in to beta testing.
 * Added compatibility with Easy Fancybox plugin.
+* <a href="https://dlxplugins.com/announcements/comment-edit-pro-3-0-released-with-turnstile-and-webhooks/">please read the announcement post</a> for more details.
 
 = 2.3.5 =
 * Released 2023-02-11
