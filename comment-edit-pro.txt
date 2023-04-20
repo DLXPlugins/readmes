@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.1.0
-Stable tag: 3.1.1
+Tested up to: 6.2.0
+Stable tag: 3.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,13 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.1.5 =
+* Released 2023-04-20
+* New option: delete comments permanently option for edited comments.
+* New option: delete comments permanently when a moderator deletes a comment.
+* New option: spam & delete a comment permanently when a moderator spams a comment.
+* <a href="https://dlxplugins.com/announcements/comment-edit-lite-and-pro-now-support-permanent-comment-deletion/">Read the announcement post</a>.
 
 = 3.1.1 =
 * Released 2023-03-11
@@ -172,5 +179,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.1.1 =
-Bug fix: Fixed a bug where character control wasn't working without Comment Edit Lite installed. Avatars can now be enabled/saved for anonymous users. Frontend editing was present in the admin when it should not have been.
+= 3.1.5 =
+Delete permanently any comments that are deleted by anonymous users or by moderators. You can also now mark as spam and delete in one click.
