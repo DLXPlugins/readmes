@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.2.0
-Stable tag: 3.1.5
+Stable tag: 3.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,14 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.2.0 =
+* Released 2023-05-01
+* New feature: Post Activity Comment Expiration. Expire posts based on comment activity.
+* New feature: Post Type comment settings. Set comment settings per post type.
+* New feature: You can now skip Akismet for pingbacks/trackbacks, and also for users with a valid Gravatar.
+* New advanced tab. Disable all comments, hide all comments, and remove spam protection.
+* <a href="https://dlxplugins.com/announcements/comment-edit-pro-3-2-comes-with-post-activity-comment-expiration-and-new-advanced-settings/">Read the announcement post</a>.
 
 = 3.1.5 =
 * Released 2023-04-20
@@ -179,5 +187,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.1.5 =
-Delete permanently any comments that are deleted by anonymous users or by moderators. You can also now mark as spam and delete in one click.
+= 3.2.0 =
+New features including post expiration based on activity, per post type comment visibility options, and more.
