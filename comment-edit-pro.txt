@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.2.0
-Stable tag: 3.2.0
+Stable tag: 3.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,12 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.3.0 =
+* Released 2023-05-13
+* New feature: Comment shortcuts for the admin bar and admin sidebar menus.
+* New feature: Comment shortcuts admin settings under the Tools tab.
+* <a href="https://dlxplugins.com/announcements/comment-edit-pro-3-3-comes-comment-shortcuts-in-the-admin-bar-and-admin-menu/">Read the announcement post</a>.
 
 = 3.2.0 =
 * Released 2023-05-01
@@ -187,5 +193,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.2.0 =
-New features including post expiration based on activity, per post type comment visibility options, and more.
+= 3.3.0 =
+New Comment Shortcuts for doing common comment actions.
