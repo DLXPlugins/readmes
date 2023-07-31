@@ -38,6 +38,7 @@ Comment Edit Pro features:
 * Released 2023-07-31
 * New feature: Can edit WooCommerce reviews via frontend editing.
 * Updated compatibility with Comment Edit Core (free plugin).
+* Bug: fixing PHP notices with DEBUG on.
 * Testing with WordPress 6.3.
 
 = 3.3.0 =
