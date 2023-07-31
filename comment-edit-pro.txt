@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.2.0
-Stable tag: 3.3.0
+Tested up to: 6.3.0
+Stable tag: 3.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,12 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.4.0 =
+* Released 2023-07-31
+* New feature: Can edit WooCommerce reviews via frontend editing.
+* Updated compatibility with Comment Edit Core (free plugin).
+* Testing with WordPress 6.3.
 
 = 3.3.0 =
 * Released 2023-05-13
@@ -193,5 +199,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.3.0 =
-New Comment Shortcuts for doing common comment actions.
+= 3.4.0 =
+You can now edit WooCommerce reviews and ratings. Testig with WP 6.3.
