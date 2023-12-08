@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.4.1
-Stable tag: 3.4.5
+Stable tag: 3.4.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,11 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.4.7 =
+* Released 2023-12-08
+* Adding Character Control compatibility with Comment Edit Core and Ajaxify Comments.
+* Comment Character Control now displays when editing a comment with Ajaxify Comments enabled.
 
 = 3.4.5 =
 * Released 2023-12-01
@@ -209,5 +214,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.4.5 =
-Added complete compatibility with Ajaxify Comments.
+= 3.4.7 =
+Adding Character Control compatibility with Comment Edit Core and Ajaxify Comments.
