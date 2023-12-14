@@ -2,8 +2,8 @@
 Contributors: DLX Plugins
 Tags: paid memberships pro, cloudflare, turnstile, spam protection, login protection, checkout protection
 Requires at least: PHP 7.2
-Tested up to: WP 6.2.3
-Stable tag: 1.0.1
+Tested up to: WP 6.4
+Stable tag: 1.0.2
 License: GPL 3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI: https://dlxplugins.com/plugins/pmpro-turnstile
@@ -28,6 +28,9 @@ We have a 30-day refund policy in place for peace of mind.
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed preview error on first-time installs with invalid snakeCase for theme appearance.
+
 = 1.0.1 =
 * Fixed: extra output on login page.
 
@@ -36,5 +39,6 @@ We have a 30-day refund policy in place for peace of mind.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-* Fixing typo included in output.
+= 1.0.2 =
+Fixed preview error on first-time installs with invalid snakeCase for theme appearance.
+
