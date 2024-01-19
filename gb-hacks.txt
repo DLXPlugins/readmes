@@ -2,7 +2,7 @@
 Tags: generateblocks, gutenberg, blocks, patterns, adobe fonts
 Requires at least: 6.1
 Tested up to: WordPress 6.4
-Stable tag: 1.1.9
+Stable tag: 1.2.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,15 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Changelog ==
 
+= 1.2.0 =
+* Released 2024-01-19
+* Added new command to the command palette, which will let you toggle an outline of all container blocks.
+* Added a shortcut to the context menu to unwrap (i.e., flatten) a container block and its content.
+* Added a shortcut to the context menu to ungroup a group block.
+* Fixing bug fix with default Headline block when in a nested container.
+* Added debouncing to block editor if the default block is a Headline block.
+* Fixed transforms to paragraphs when transforming to a paragraph block.
+
 = 1.1.9 =
 * Released 2023-12-16
 * Fixing Blocksy Adobe Fonts integration returning the wrong value and setting the font incorrectly.
@@ -62,5 +71,5 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Upgrade Notice ==
 
-= 1.1.9 =
-Fixing Blocksy Adobe Fonts integration returning the wrong value and setting the font incorrectly.
+= 1.2.0 =
+Added container outlines to the command palette. You can now unwrap/ungroup Container/Group blocks using the context menu. Fixes to the editor when the default block is a Headline block.
