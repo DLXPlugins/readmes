@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.4.2
-Stable tag: 3.4.9
+Tested up to: 6.4.3
+Stable tag: 3.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,11 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.5.0 =
+* Released 2024-02-07
+* Adding selector helper to easily get the comment area HTML IDs and attributes.
+* Added option to prevent non-logged-in users from editing a comment.
 
 = 3.4.9 =
 * Released 2023-12-13
@@ -218,5 +223,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.4.9 =
-Resolving fatal error with too few arguments in Comment Shortcuts.
+= 3.5.0 =
+Added Selector Helper to get the comment area IDs and attributes. Added option to prevent non-logged-in users from editing comments.
