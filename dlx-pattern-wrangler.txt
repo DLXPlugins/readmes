@@ -1,0 +1,46 @@
+=== Pattern Wrangler ===
+Tags: blocks, block patterns, patterns, pattern
+Requires at least: 6.3
+Tested up to: WordPress 6.5
+Stable tag: 1.0.0
+Requires PHP: 7.2
+License: GPLv2 or later
+
+Get your block patterns under control with Pattern Wrangler. Hide, rename, map categories, and more!
+
+== Description ==
+
+Block patterns are a game changer for developing sites, but managing them can quickly get out of hand. With Pattern Wrangler, take control of your patterns by quickly hiding core and remote patterns, renaming and mapping categories, importing remote images when pasting in a pattern, and much more!
+
+**Features include:**
+
+- **Quickly disable core and remote patterns:** Disable all patterns, core patterns, and even remote patterns with just a few clicks.
+- **Disable, rename, and map categories:** You can rename pattern categories, or disable certain ones and map them to another category.
+- **Import remote patterns and images with the Pattern Importer block:** Copy patterns from site to site with ease, including remote images.
+- **Enhance the default pattern editing experience:** Show a list view of available local and synced patterns, enable a post list of all available local patterns, both synced and unsynced, and add a preview image for quicker browsing in the post-list view.
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/dlx-pattern-wrangler` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Use the plugin via the block editor.
+
+== Frequently Asked Questions ==
+
+= How does this plugin enhance the pattern editing experience? =
+
+WordPress’s pattern editing experience improves with each release, but not everyone uses Full-Site Editing, and patterns can quickly get out of hand. This plugin enables the default built-in post type so that you can edit the patterns individually and even preview the pattern on the frontend of the site. The ability to map and rename categories will also aid immensely in pattern organization.
+
+= What is the Pattern Importer, and how does it work? =
+
+When you copy a pattern from site to site, the images aren’t carried over and reference the old site. With the pattern importer block, it’ll scan the content for any images and replace them with local copies.
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release. Enjoy the full control over your block patterns!
