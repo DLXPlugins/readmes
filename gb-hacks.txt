@@ -1,8 +1,8 @@
 === GB Hacks ===
 Tags: generateblocks, gutenberg, blocks, patterns, adobe fonts
 Requires at least: 6.1
-Tested up to: WordPress 6.4
-Stable tag: 1.2.0
+Tested up to: WordPress 6.5
+Stable tag: 1.3.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,14 @@ GB Hacks is perfect for users looking to streamline their GenerateBlocks workflo
 The Pattern Importer allows you to import GenerateBlocks patterns, automatically generating unique IDs and importing images to your site.
 
 == Changelog ==
+
+= 1.3.0 =
+* Released 2024-03-03
+* When unwrapping a container, the first child in the container is selected by default.
+* Added much more reliable image importing when importing patterns with the Pattern Inserter block.
+* Added option to skip remote image download in the Pattern Inserter block.
+* Tested with WP 6.5, which introduces RichText attributes, which require different validation. This is useful if you have selected the Headline block as the default block.
+* Tested with GB 1.9.0-alpha.2 and GB Pro 1.7.0-alpha.2 with no conflicts founds so far.
 
 = 1.2.0 =
 * Released 2024-01-19
@@ -71,5 +79,5 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Upgrade Notice ==
 
-= 1.2.0 =
-Added container outlines to the command palette. You can now unwrap/ungroup Container/Group blocks using the context menu. Fixes to the editor when the default block is a Headline block.
+= 1.3.0 =
+Enhancements to the Pattern Inserter block such as better image downloading and the ability to skip remote images. Unwrapping a Container block will now select the first child block. Compatibility tests with WP 6.5 and GB and GB Pro alpha's.
