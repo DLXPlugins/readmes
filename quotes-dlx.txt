@@ -2,7 +2,7 @@
 Tags: block, quote, blockquote
 Requires at least: 6.0.0
 Tested up to: 6.5
-Stable tag: 2.3.0
+Stable tag: 2.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,8 +24,8 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 == Changelog ==
 
-= 2.3.0 =
-* Released 2024-04-21
+= 2.3.1 =
+* Released 2024-04-27
 * Added new X theme Dark X
 * Changed Twitter branding to X.
 
@@ -115,5 +115,5 @@ Please <a href="https://docs.dlxplugins.com/developers/changelog">see the Change
 
 == Upgrade Notice ==
 
-= 2.3.0 =
-Changing Twitter branding to X. Adding new theme Dark X.
+= 2.3.1 =
+Resolving fatal with case-sensitive autoloader.
