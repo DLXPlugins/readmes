@@ -1,16 +1,16 @@
 === QuotesDLX ===
-Tags: block, quote, blockquote
+Tags: block, quote, blockquote, shortcake
 Requires at least: 6.0.0
 Tested up to: 6.5
-Stable tag: 2.3.1
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create Beautiful and Shareable Quotes in the Block Editor
+Create Beautiful and Shareable Quotes in the Block Editor and via Shortcake
 
 == Description ==
 
-The plugin is an easy-to-use blockquote block with support for themes, social networks, and user interaction.
+The plugin is an easy-to-use blockquote block and shortcake with support for themes, social networks, and user interaction.
 
 More information about QuotesDLX: https://dlxplugins.com/plugins/quotesdlx/
 Documentation for QuotesDLX: https://qdlx.dlxplugins.com/
@@ -23,6 +23,15 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 3.0.0 =
+* Released 2024-06-02
+* New Feature: Adding citation support to all themes so providing proper attribution is now possible.
+* New Feature: Adding shortcode support for compatibility with the Classic Editor and page builders.
+* New Feature: Emails are out of beta and supports reCAPTCHA 3 and Cloudflare Turnstile for spam protection.
+* Bug fix: permalinks were unreliable, so these have been reworked.
+* Bug fix: fix top padding in Dark X theme.
+* Bug fix: theme color options have been updated to prevent style conflicts.
 
 = 2.3.1 =
 * Released 2024-04-27
@@ -115,5 +124,5 @@ Please <a href="https://docs.dlxplugins.com/developers/changelog">see the Change
 
 == Upgrade Notice ==
 
-= 2.3.1 =
-Resolving fatal with case-sensitive autoloader.
+= 3.0.0 =
+Add citation support to all themes. Shortcode compatibility has been added. Emails are out of beta and support three forms of spam protection.
