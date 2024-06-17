@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.4.3
-Stable tag: 3.7.1
+Tested up to: 6.5.0
+Stable tag: 3.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,8 +34,12 @@ Comment Edit Pro features:
 
 == Changelog ==
 
+= 3.8.0 =
+* Released 2024-06-17
+* Added MailerLite newsletter integration option.
+
 = 3.7.1 =
-* Released 2024-07-10
+* Released 2024-06-10
 * Added Flodesk newsletter integration option.
 
 = 3.5.0 =
@@ -227,5 +231,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.7.1 =
-Added Flodesk integration.
+= 3.8.0 =
+Added MailerLite integration.
