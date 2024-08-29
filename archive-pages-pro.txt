@@ -4,7 +4,7 @@ Tags: archive pages, author archives, custom slugs, SEO, WordPress archives
 Requires at least: 5.8
 Tested up to: 6.6.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,10 +40,16 @@ Key Features:
 
 == Changelog ==
 
+= 1.0.1 =
+* Released 2024-08-28
+* Feature: redirects will work on all mapped pages.
+* Bug fix: making sure that unmapped pages are unmapped progrmmatically.
+* Bug fix: empty options were causing some taxonomies and post types to not be rendered correctly.
+
 = 1.0.0 =
 * Initial release of Archive Pages Pro.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-This is the initial release of Archive Pages Pro. Please read the documentation to understand how to configure the plugin.
+= 1.0.1 =
+This update adds redirects to all mapped pages and fixes some bugs related to empty options.
