@@ -1,20 +1,20 @@
 === GB Extras ===
 Tags: generateblocks, gutenberg, blocks, patterns, adobe fonts
 Requires at least: 6.1
-Tested up to: WordPress 6.5
-Stable tag: 1.4.0
+Tested up to: WordPress 6.8
+Stable tag: 2.0.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Enhance your GenerateBlocks experience with GB Extras, featuring a Pattern Importer, set the Headline block as default, Adobe Fonts integration, and more.
+Enhance your GenerateBlocks experience with GB Extras, featuring a Pattern Importer, v1 to v2 transforms, and more.
 
 == Description ==
 
 GB Extras is an add-on for GenerateBlocks that brings additional functionality and enhancements to your block editing experience. Key features include:
 
 1. **Pattern Importer**: Easily import remote patterns, including all images and unique IDs, ensuring no style conflicts.
-2. **Default Headline Block**: Set the versatile Headline block as your default block in the editor.
+2. **Version 1 to Version 2 Blocks Converter**: Convert v1 to v2 blocks with a quick transform.
 3. **Adobe Font Support**: Integrate Adobe Fonts from popular font plugins like Astra’s Typekit plugin and Blocksy’s Adobe Font module.
 4. **Container Block Wrapping**: Select multiple blocks and wrap them in a Container block with ease.
 5. **Transform the Group block to a Container**: Convert Group blocks into Container blocks, maintaining all internal blocks.
@@ -35,6 +35,13 @@ GB Extras is perfect for users looking to streamline their GenerateBlocks workfl
 The Pattern Importer allows you to import GenerateBlocks patterns, automatically generating unique IDs and importing images to your site.
 
 == Changelog ==
+
+= 2.0.0 =
+ * Released 2025-05-12
+ * Added v1 to v2 block converter in command palette.
+ * Updating Block Editor shortcuts for the v2 blocks.
+ * Adding v1 and v2 options to show both at once, with custom labels and suffixes.
+ * Fixing Unique ID generation for Version 2 blocks.
 
 = 1.5.0 =
 * Released 2024-06-11
@@ -87,5 +94,5 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Upgrade Notice ==
 
-= 1.5.0 =
-Renaming plugin to GB Extras.
+= 2.0.0 =
+GenerateBlocks 2.x compatibility. Adds a v1 to v2 block converter tool to the command palette. Display both v1 and v2 blocks in the block editor, with custom labels. Most shortcuts and options have been ported to GenerateBlocks 2.x.
