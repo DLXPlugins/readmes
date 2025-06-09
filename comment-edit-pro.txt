@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.5.0
-Stable tag: 3.8.0
+Tested up to: 6.8
+Stable tag: 3.9.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,22 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.9.0 =
+* Released 2025-06-09
+* The frontend moderation menu has been improved, adding two new shortcuts: block comments and copy email.
+* reCAPTCHA Enterprise Added
+* Selector Helper Has Been Updated for Modern Themes
+* Improved Comment Shortcuts Make Managing Comments on the Frontend Easier
+* Selector Helper now works with Divi.
+* Mailchimp Server Prefix is not sanitized.
+* Comment bubbles in shortcuts have been minimized.
+* Closing and opening comments with a forced status now have overrides.
+* Frontend moderation is now enabled by default.
+* Frontend moderation menu is now located directly above the comment for better appearance.
+* All script console errors have been resolved.
+* Admin labels have been updated so the required field sits flush.
+* Added deprecation notice to @Mentions feature.
 
 = 3.8.0 =
 * Released 2024-06-17
@@ -231,5 +247,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.8.0 =
-Added MailerLite integration.
+= 3.9.0 =
+This update improves frontend comment moderation with two new shortcuts—block comments and copy email—and makes the moderation menu more accessible by placing it directly above comments and enabling it by default. Comment shortcuts and bubbles have been refined for better usability, and Selector Helper now supports modern themes like Divi. reCAPTCHA Enterprise has been added, and script console errors have been resolved. Admin label alignment has been fixed, overrides were added for forced comment statuses, and a deprecation notice was added for the @Mentions feature. Also addressed: Mailchimp server prefix sanitization.
