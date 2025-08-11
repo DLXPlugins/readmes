@@ -1,8 +1,8 @@
 === QuotesDLX ===
 Tags: block, quote, blockquote, shortcake
 Requires at least: 6.0.0
-Tested up to: 6.5
-Stable tag: 3.0.0
+Tested up to: 6.8
+Stable tag: 3.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,14 @@ Detailed Changelog: https://docs.dlxplugins.com/v/quotes-dlx/developers/changelo
 
 
 == Changelog ==
+
+= 3.1.0 =
+* Released 2025-08-10
+* New Feature: Added a Ratings section, to make a quote a testimonial.
+* New Feature: All themes have been updated for ratings support.
+* New Feature: Block Manifests are used to speed up block loading time.
+* Bug fix: Light Branded theme had extra padding.
+* Bug fix: Fixing centered citations having extra left|right space.
 
 = 3.0.0 =
 * Released 2024-06-02
@@ -124,5 +132,5 @@ Please <a href="https://docs.dlxplugins.com/developers/changelog">see the Change
 
 == Upgrade Notice ==
 
-= 3.0.0 =
-Add citation support to all themes. Shortcode compatibility has been added. Emails are out of beta and support three forms of spam protection.
+= 3.1.0 =
+Add Ratings section in quotes. Each theme supports ratings now. Added Block Manifests for performance. Miscellaneous theme style fixes.
