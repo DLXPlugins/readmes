@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 3.9.0
+Tested up to: 6.8.2
+Stable tag: 3.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,10 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 3.9.1 =
+* Released 2025-08-25
+* Fixing avatars not showing for some themes.
 
 = 3.9.0 =
 * Released 2025-06-09
@@ -247,5 +251,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.9.0 =
-This update improves frontend comment moderation with two new shortcuts—block comments and copy email—and makes the moderation menu more accessible by placing it directly above comments and enabling it by default. Comment shortcuts and bubbles have been refined for better usability, and Selector Helper now supports modern themes like Divi. reCAPTCHA Enterprise has been added, and script console errors have been resolved. Admin label alignment has been fixed, overrides were added for forced comment statuses, and a deprecation notice was added for the @Mentions feature. Also addressed: Mailchimp server prefix sanitization.
+= 3.9.1 =
+This update fixes Avatars for the Blocksy theme and some others.
