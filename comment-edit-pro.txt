@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.8.2
-Stable tag: 3.9.1
+Stable tag: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,12 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 4.0.0 =
+* Released 2025-09-06
+* New: Comment Edit Pro is now compatible with WordPress Multisite. Disable comments, set up network Slack notifications, set a network commenter email address, adjust the edit timer, and more.
+* Bug fix: Translation errors were polluting logs.
+* Bug fix: Multisite licenses weren't translating site-wide.
 
 = 3.9.1 =
 * Released 2025-08-25
@@ -251,5 +257,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 3.9.1 =
-This update fixes Avatars for the Blocksy theme and some others.
+= 4.0.0 =
+New: Multisite compatible. Disable comments, set up network Slack notifications, set a network commenter email address, adjust the edit timer, and more.
