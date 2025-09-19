@@ -1,0 +1,54 @@
+=== HeyTodos - Gravity Forms and Todoist Add-on ===
+Tags: gravity forms, todoist
+Requires at least: 5.0
+Tested up to: 6.8.2
+Stable tag: 1.0.0-beta2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+=== HeyTodos for Gravity Forms ===
+Contributors: dlxplugins, huereca
+Donate link: https://heytodos.com/
+Tags: gravity forms, todoist, integration, productivity, tasks
+Requires at least: 6.2
+Tested up to: 6.7
+Stable tag: 1.0.0-beta2
+Requires PHP: 7.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Easily create Todoist tasks from Gravity Forms submissions.
+
+== Description ==
+
+HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can automatically turn Gravity Forms submissions into Todoist tasks.
+
+**Features:**
+
+* Connect Gravity Forms to Todoist.
+* Map form fields to task content and description.
+* Choose Todoist project, section, priority, due date, and labels.
+* Works with both personal and team workspaces.
+* Dynamic projects and sections with merge tags.
+
+== Installation ==
+
+1. Upload the plugin files to `/wp-content/plugins/gf-hey-todos`, or install via the Plugins screen.
+2. Activate the plugin through the "Plugins" screen in WordPress.
+3. Go to *Forms → Settings → Todoist* to connect your Todoist account.
+4. Create a Todoist feed in your form settings and map the fields you want.
+
+== Changelog ==
+
+= 1.0.0-beta2 =
+* Released 2025-09-19
+* Bug fix: fixed fatal if Gravity Forms wasn't installed.
+* Bug fix: custom sections weren't properly set if set as a merge tag.
+
+= 1.0.0-beta1 =
+* Released 2025-09-15
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.0-beta2 =
+Fixed fatal if Gravity Forms isn't installed. Fixing sections not being set correctly if set to custom.
