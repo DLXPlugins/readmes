@@ -39,6 +39,11 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Changelog ==
 
+= 1.0.0-beta3 =
+* Released 2025-09-19
+* Bug fix: Script wasn't loading properly on feeds.
+* Bug fix: Merge tag styling was corrected.
+
 = 1.0.0-beta2 =
 * Released 2025-09-19
 * Bug fix: fixed fatal if Gravity Forms wasn't installed.
@@ -50,5 +55,5 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Upgrade Notice ==
 
-= 1.0.0-beta2 =
-Fixed fatal if Gravity Forms isn't installed. Fixing sections not being set correctly if set to custom.
+= 1.0.0-beta3 =
+Fixed feed loading error. Fixing merge tag styles.
