@@ -2,19 +2,9 @@
 Tags: gravity forms, todoist
 Requires at least: 5.0
 Tested up to: 6.8.2
-Stable tag: 1.0.0-beta2
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-=== HeyTodos for Gravity Forms ===
-Contributors: dlxplugins, huereca
-Donate link: https://heytodos.com/
-Tags: gravity forms, todoist, integration, productivity, tasks
-Requires at least: 6.2
-Tested up to: 6.7
-Stable tag: 1.0.0-beta2
-Requires PHP: 7.4
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Easily create Todoist tasks from Gravity Forms submissions.
 
@@ -39,6 +29,14 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Changelog ==
 
+= 1.0.0 =
+* Released 2025-09-21
+* Deprecating Workspace Users. Todoist API does not support it.
+* Add warning message if no projects. Resolve no projects errors.
+* Bug fix: Sections weren't saving properly.
+* Bug fix: Revoked tokens cause errors. Handling gracefully.
+* New: Adding developer hooks.
+
 = 1.0.0-beta3 =
 * Released 2025-09-19
 * Bug fix: Script wasn't loading properly on feeds.
@@ -55,5 +53,5 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Upgrade Notice ==
 
-= 1.0.0-beta3 =
-Fixed feed loading error. Fixing merge tag styles.
+= 1.0.0 =
+Fixing sections not being saved, Adding graceful handling of revoked tokens. Adding graceful handling if no projects.
