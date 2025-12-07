@@ -262,5 +262,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 4.1.0 =
+= 4.1.3 =
 New: Output the comment form as a shortcode and hide subsequent forms. This can allow you to manually place a comment form on a post wherever you choose, and show the rest of the comments below like normal. Fixing compatibility issue with DCO Comment Attachment plugin.
