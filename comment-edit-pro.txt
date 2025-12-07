@@ -1,8 +1,8 @@
 === Comment Edit Pro ===
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
-Tested up to: 6.8.2
-Stable tag: 4.0.0
+Tested up to: 6.9.0
+Stable tag: 4.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,11 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 4.1.3 =
+* Released 2025-12-06
+* New: Output a comment form using a shortcode. `sce_comment_form`. Hide secondary comment forms.
+* Bug fix: Editing a comment removed the frontend preview for the <a href="https://wordpress.org/plugins/dco-comment-attachment/">DCO Comment Attachment</a> plugin.
 
 = 4.0.0 =
 * Released 2025-09-06
@@ -257,5 +262,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 4.0.0 =
-New: Multisite compatible. Disable comments, set up network Slack notifications, set a network commenter email address, adjust the edit timer, and more.
+= 4.1.0 =
+New: Output the comment form as a shortcode and hide subsequent forms. This can allow you to manually place a comment form on a post wherever you choose, and show the rest of the comments below like normal. Fixing compatibility issue with DCO Comment Attachment plugin.
