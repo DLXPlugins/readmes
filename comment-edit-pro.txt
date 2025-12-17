@@ -2,7 +2,7 @@
 Tags: ajax, comments,edit comments, edit, comment, admin
 Requires at least: 5.0
 Tested up to: 6.9.0
-Stable tag: 4.1.3
+Stable tag: 4.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,10 @@ Comment Edit Pro features:
 
 
 == Changelog ==
+
+= 4.1.5 =
+* Released 2025-12-17
+* Resolving PHP 8.3 errors and notices.
 
 = 4.1.3 =
 * Released 2025-12-06
@@ -262,5 +266,5 @@ Comment Edit Pro features:
 
 == Upgrade Notice ==
 
-= 4.1.3 =
-New: Output the comment form as a shortcode and hide subsequent forms. This can allow you to manually place a comment form on a post wherever you choose, and show the rest of the comments below like normal. Fixing compatibility issue with DCO Comment Attachment plugin.
+= 4.1.5 =
+Resolving PHP 8.3 errors and notices.
