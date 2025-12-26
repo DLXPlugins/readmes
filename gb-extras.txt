@@ -2,7 +2,7 @@
 Tags: generateblocks, gutenberg, blocks, patterns, adobe fonts
 Requires at least: 6.1
 Tested up to: WordPress 6.8.2
-Stable tag: 2.1.1
+Stable tag: 2.5.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,20 @@ GB Extras is perfect for users looking to streamline their GenerateBlocks workfl
 The Pattern Importer allows you to import GenerateBlocks patterns, automatically generating unique IDs and importing images to your site.
 
 == Changelog ==
+
+= 2.5.0 =
+* Released 2025-12-26
+* New: Improved command palette system for GenerateBlocks tools and transformations.
+* New: (Command Palette) Regenerate GenerateBlocks CSS files directly from the command palette.
+* New: (Command Palette) Bulk transform core Paragraph blocks into GenerateBlocks Text blocks.
+* New: (Command Palette) Bulk transform core Heading blocks (H1–H6) into GenerateBlocks Text blocks.
+* Updated: (Command Palette) Experimental command to convert GenerateBlocks v1 blocks to v2 blocks.
+* Improved: (Command Palette) Container outline toggle now performs significantly better and no longer causes editor lag.
+* Improved: (Command Palette) Shortcuts are now available in more contexts (editor, admin, frontend).
+* New: (Command Palette) Optional frontend command palette for administrators.
+* New: Admin bar customization options for GenerateBlocks menus.
+* Fixed: Outline rendering and cleanup issues that could cause performance problems.
+
 
 = 2.1.1 =
 * Released 2025-08-13
@@ -113,5 +127,5 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Upgrade Notice ==
 
-= 2.1.1 =
-Version 1 blocks were still showing despite the option being disabled in the admin. This has been fixed.
+= 2.5.0 =
+Introduces a new command palette system with bulk block transformations, CSS regeneration tools, frontend command palette support, and admin bar customization options. Some features are optional or experimental and can be enabled or disabled in GB Extras settings. These features are ideal for GenerateBlocks Pro and WP 6.9.
