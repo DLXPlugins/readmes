@@ -1,8 +1,8 @@
 === HeyTodos - Gravity Forms and Todoist Add-on ===
 Tags: gravity forms, todoist
 Requires at least: 5.0
-Tested up to: 6.8.2
-Stable tag: 1.0.0
+Tested up to: 6.9.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,11 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Changelog ==
 
+= 1.1.0 =
+* Released 2026-02-16
+* Updating Sync API to latest version.
+* You may have to re-sync data for API updates.
+
 = 1.0.0 =
 * Released 2025-09-21
 * Deprecating Workspace Users. Todoist API does not support it.
@@ -53,5 +58,5 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Fixing sections not being saved, Adding graceful handling of revoked tokens. Adding graceful handling if no projects.
+= 1.1.0 =
+Migrating to the newest Todoist API. You may have to resend Todoist data.
