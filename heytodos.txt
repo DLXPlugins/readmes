@@ -1,8 +1,8 @@
 === HeyTodos - Gravity Forms and Todoist Add-on ===
 Tags: gravity forms, todoist
-Requires at least: 5.0
-Tested up to: 6.9.1
-Stable tag: 1.1.0
+Requires at least: 6.5
+Tested up to: 7.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,11 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 4. Create a Todoist feed in your form settings and map the fields you want.
 
 == Changelog ==
+
+= 1.1.2 =
+* Released 2026-03-07
+* Resolving deprecation warnings and PHP warnings.
+* Bug fixes in the feed settings when adding new projects, sections, labels on the fly and the feed settings wouldn't save correctly.
 
 = 1.1.0 =
 * Released 2026-02-16
@@ -58,5 +63,5 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Upgrade Notice ==
 
-= 1.1.0 =
-Migrating to the newest Todoist API. You may have to resend Todoist data.
+= 1.1.2 =
+Fixing deprecation notices. Resolving saving issues in feed settings.
