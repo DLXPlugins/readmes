@@ -2,7 +2,7 @@
 Tags: generateblocks, gutenberg, blocks, patterns, adobe fonts
 Requires at least: 6.8
 Tested up to: WordPress 7.0.0
-Stable tag: 2.6.0
+Stable tag: 2.6.1
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,10 @@ GB Extras is perfect for users looking to streamline their GenerateBlocks workfl
 The Pattern Importer allows you to import GenerateBlocks patterns, automatically generating unique IDs and importing images to your site.
 
 == Changelog ==
+
+= 2.6.1 =
+* Released 2026-04-06
+* Fix: Admin menu bar only shows for those with admin privileges.
 
 = 2.6.0 =
 * Released 2026-03-08
@@ -131,5 +135,5 @@ The Pattern Importer allows you to import GenerateBlocks patterns, automatically
 
 == Upgrade Notice ==
 
-= 2.6.0 =
-New: Added v1 to v2 contextual shortcut, allowing you to transform at the block level including all child blocks.
+= 2.6.1 =
+Fix: Admin menu bar only shows for those with admin privileges.
