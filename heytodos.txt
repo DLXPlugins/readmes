@@ -2,7 +2,7 @@
 Tags: gravity forms, todoist
 Requires at least: 6.5
 Tested up to: 7.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,10 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 4. Create a Todoist feed in your form settings and map the fields you want.
 
 == Changelog ==
+
+= 1.1.3 =
+* Released 2026-06-26
+* Fixing license error causing fatal.
 
 = 1.1.2 =
 * Released 2026-03-07
@@ -63,5 +67,5 @@ HeyTodos connects your Gravity Forms to Todoist. With just a few clicks, you can
 
 == Upgrade Notice ==
 
-= 1.1.2 =
-Fixing deprecation notices. Resolving saving issues in feed settings.
+= 1.1.3 =
+Fixing license error causing fatal.
